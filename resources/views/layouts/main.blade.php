@@ -7,14 +7,37 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto" rel="stylesheet">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     
     <link rel="stylesheet" href="/css/global.css">
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="navbar-container" id="navbar">
+                <a href="/" class="navbar-brand">
+                    <img src="/" alt="logo">
+                </a>
+                <ul class="navbar-elements">
+                    <li class="nav-item">
+                        <a href="/"  class="nav-link">Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">Criar Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">Entrar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">Cadastrar</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     @yield('content')
     <footer>
-        <p>HDC Events &copy; @php echo date("Y") @endphp</p>
+        <p>HDC Events &copy; {{date("Y")}}</p>
     </footer>
 </body>
 </html>

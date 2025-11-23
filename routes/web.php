@@ -15,3 +15,14 @@ Route::get('/options', function () {
     $arr = [1,2,3,4,5];
     return view('options', ["nome" => $nome,"arr" => $arr]);
 });
+
+Route::get('/products', function () {
+
+    $search = request('search');
+
+    return view('products', ['search' => $search]);
+});
+
+Route::get('/products_teste/{id}', function (int $id) {
+    return view('product', ['id' => $id]);
+});

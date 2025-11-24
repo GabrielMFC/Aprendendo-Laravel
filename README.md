@@ -6,3 +6,4 @@
 - **[Diretivas Blade(@if, @php, @for, etc...)]**
 - **[URLs parametrizadas(com o uso do /{id} na url)]**
 - **[Controllers para abstrair a exibição de views nas rotas]**
+- **[Comando php artisan inspire, esse comando retorna uma frase filosófica]**

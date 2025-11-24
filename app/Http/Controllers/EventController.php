@@ -14,7 +14,7 @@ class EventController extends Controller
         ]);
     }
 
-    public function Events(){
+    public function events(){
         return view(
             'event.myEvents'
         );
@@ -28,13 +28,13 @@ class EventController extends Controller
 
     public function signIn(){
         return view(
-            'signIn'
+            'sign.in'
         );
     }
 
     public function signUp(){
         return view(
-            'signUp'
+            'sign.up'
         );
     }
 }

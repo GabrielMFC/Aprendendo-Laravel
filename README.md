@@ -7,3 +7,4 @@
 - **[URLs parametrizadas(com o uso do /{id} na url)]**
 - **[Controllers para abstrair a exibição de views nas rotas]**
 - **[Comando php artisan inspire, esse comando retorna uma frase filosófica]**
+- **[Com o uso dos comandos do artisan migrate/migration, é possível fazer uma gama de instruções para manipular tables do database pré-informado no .env do laravel, tais como: criar, alterar, salvar, etc..]**

@@ -13,9 +13,8 @@ return new class extends Migration
     {
         Schema::create('batata', function (Blueprint $table) {
             $table->id();
-            $table->string('nome');
+            $table->string('name');
             $table->integer('age');
-            $table->timestamps();
         });
     }
 

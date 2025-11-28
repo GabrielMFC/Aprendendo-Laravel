@@ -3,6 +3,8 @@
 @section('title', 'HDC Events')
 
 @section('content')
-<h1>Meu nome é: {{$nome}}</h1>
-<a href="/options">Options</a>
+    <link rel="stylesheet" href="/css/home.css">
+    <div class="homeContainer centralize">
+        <img class="banner" src="/build/assets/banner.jpg" alt="">
+    </div>
 @endsection

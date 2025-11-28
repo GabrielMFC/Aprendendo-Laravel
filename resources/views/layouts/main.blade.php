@@ -16,7 +16,7 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="navbar-container" id="navbar">
                 <a href="/" class="navbar-brand">
-                    <img src="/" alt="logo">
+                    <img src="/build/assets/hdcevents_logo.svg" alt="logo" class="logo">
                 </a>
                 <ul class="navbar-elements">
                     <li class="nav-item">

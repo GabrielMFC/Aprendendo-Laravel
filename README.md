@@ -9,3 +9,4 @@
 - **[Comando php artisan inspire, esse comando retorna uma frase filosófica]**
 - **[Com o uso dos comandos do artisan migrate/migration, é possível fazer uma gama de instruções para manipular tables do database pré-informado no .env do laravel, tais como: criar, alterar, salvar, etc..]**
 - **[Com o uso do php artisan make:model NomeDoModelo, é possível fazer uma entidade que servirá como uma camada que irá interagir com o banco de dados.]**
+- **[Com o uso do método with('msg', 'MinhaMsg'), é possível retornar uma mensagem para a view após a request ser realizada dentro do controller.]**

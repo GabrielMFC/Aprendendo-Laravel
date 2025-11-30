@@ -35,7 +35,16 @@
             </div>
         </nav>
     </header>
-    @yield('content')
+    <main>
+        <div class="container-fluid">
+            <div class="row centralize">
+                @if(session('msg'))
+                    <p class="msg">{{ session('msg') }}</p>
+                @endif
+                @yield('content')
+            </div>
+        </div>
+    </main>
     <footer>
         <p class="footerText">HDC Events &copy; {{date("Y")}}</p>
     </footer>

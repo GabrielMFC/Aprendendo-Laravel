@@ -12,6 +12,7 @@
                             <h3>{{ $event->name }}</h3>
                             <p>{{ $event->description }}</p>
                             <img src="/img/events/{{$event->image}}" alt="Imagem do evento">
+                            <a href="/events/{{$event->id}}">Saber mais</a>
                         </li>
                 @endforeach
             </ul>
